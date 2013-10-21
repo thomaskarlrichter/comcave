@@ -19,7 +19,7 @@ h2+ul>li>span {
     font-size:50px;
     font-weight: bold;
     background-color: transparent;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 20px 5px 50px;
     text-shadow: 3px 3px 3px #fff;
 }
 h2+ul>li>ul>li>span {
@@ -33,6 +33,8 @@ h2+ul>li>ul>li {
     font-size: 40px;
     color: #fff;
     text-shadow: 3px 3px 10px #000;
+    height: 170px;
+    width: 630px;
 }
 h2+ul>li>ul>li:hover,h2+ul>li>ul>li>span:hover {
    background-color: darkred;
@@ -40,6 +42,13 @@ h2+ul>li>ul>li:hover,h2+ul>li>ul>li>span:hover {
 img{
     box-shadow: 5px 5px 8px #270502;
     margin-left: 20px;
+}
+ol {
+    position: relative;
+    background-color: #fff;
+    left: 190px;
+    width: 400px;
+    top: -200px;
 }
 ol>li{
     background-color: #fff;
